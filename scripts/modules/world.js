@@ -103,10 +103,10 @@ export class World {
         utility.textContent = utilityActiveObject.number;
         tileActiveObject.type = utilityActiveObject.type;
       }
+      this.deActiveTile();
     }
 
     this.deActiveUtility();
-    this.deActiveTile();
   }
 
   removeTile() {
@@ -184,6 +184,7 @@ export class World {
         tile.addEventListener("click", () => {
           this.deActiveTile();
           this.tiles_matrix[row_i][col_j].active_status = this.tile_active;
+          console.log(tile.id);
           tile.classList.add("tile-active");
         });
       }

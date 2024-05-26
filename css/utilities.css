@@ -16,3 +16,7 @@
 .active-utility {
   opacity: 0.5;
 }
+
+.tile-active {
+  opacity: 0.6;
+}
