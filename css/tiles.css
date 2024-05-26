@@ -1,0 +1,21 @@
+.soil {
+  background: url("/assets/images/soil.png") no-repeat center center/cover;
+}
+.sky {
+  background-color: cornflowerblue;
+}
+
+.wood {
+  background: url("/assets/images/wood.png") no-repeat center center/cover;
+}
+.leaves {
+  background: url("/assets/images/leaves.png") no-repeat center center/cover;
+  background-color: rgb(2, 18, 2);
+}
+.stone {
+  background: url("/assets/images/stone.png") no-repeat center center/cover;
+}
+
+.tile-active {
+  opacity: 0.5;
+}
