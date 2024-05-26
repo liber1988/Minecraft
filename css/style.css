@@ -88,3 +88,14 @@ body {
   background-position: center;
   z-index: 11;
 }
+.reset-icon {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: white;
+  background-image: url(".././assets/images/newGameIcon.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 50px;
+}

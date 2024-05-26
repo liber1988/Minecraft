@@ -8,4 +8,5 @@ startButton.addEventListener("click", function () {
 
 const game = new Game();
 game.startGame();
+game.resetGame();
 game.updateWorld();

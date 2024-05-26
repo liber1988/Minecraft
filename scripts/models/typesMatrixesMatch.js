@@ -8,4 +8,5 @@ export default [
   ["vacuum", "leaves"],
   ["vacuum", "wood"],
   ["pickaxe", "stone"],
+  ["siccors", "leaves"],
 ];

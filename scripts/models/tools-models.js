@@ -4,4 +4,5 @@ export default {
   axe: "axe",
   vacuum: "vacuum",
   box: "box",
+  siccors: "siccors",
 };

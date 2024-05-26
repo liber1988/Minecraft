@@ -69,7 +69,11 @@ export class World {
       i++;
     }
   }
-
+  createResetIcon() {
+    const icon = document.createElement("div");
+    icon.classList.add("reset-icon");
+    tools.appendChild(icon);
+  }
   addUtility(tileType) {
     const utility = document.querySelector(`.${tileType}.utility-cell`);
 
@@ -264,5 +268,6 @@ export class World {
       tools.appendChild(tool);
       i++;
     }
+    console.log(this.tools_matrix);
   }
 }

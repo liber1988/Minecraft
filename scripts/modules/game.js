@@ -9,6 +9,15 @@ export class Game {
     world.generateWorld();
     world.addKitTools();
     world.createUtilities();
+    world.createResetIcon();
+  }
+  resetGame() {
+    const resets = document.getElementsByClassName("reset-icon");
+    Array.from(resets).forEach((reset) => {
+      reset.addEventListener("click", () => {
+        location.reload();
+      });
+    });
   }
   updateWorld() {
     document.body.addEventListener("click", () => {
@@ -16,5 +25,4 @@ export class Game {
       world.addTile();
     });
   }
-  resetGame() {}
 }
